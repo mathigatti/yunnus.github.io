@@ -74,6 +74,10 @@ figure {
   display: -webkit-inline-box;
 }
 
+#registro {
+  margin-top: 2em;
+}
+
 #fh5co-header {
   position: relative;
   margin-bottom: 0;
@@ -83,7 +87,7 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 600px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -989,6 +993,9 @@ img{
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
+}
+.form-control {
+  margin-bottom: 20px;
 }
 #fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
